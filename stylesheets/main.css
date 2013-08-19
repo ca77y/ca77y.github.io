@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Hanalei+Fill|Frijole|Bad+Script);
+@import url(http://fonts.googleapis.com/css?family=Hanalei+Fill|Frijole|Bad+Script|Leto);
 
 html, body {
     height: 100%;
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    font-family: "Frijole", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-family: "Frijole", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header h1, header a, header a:visited, .posts a {
@@ -24,7 +24,7 @@ header a:hover {
 }
 
 header h1 {
-    font-family: "Hanalei Fill", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-family: "Hanalei Fill", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header .contacts li {
@@ -33,6 +33,10 @@ header .contacts li {
 .container {
     width: 600px;
     min-height:100%;
+}
+
+.post {
+    font-family: "Leto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #wrap {
