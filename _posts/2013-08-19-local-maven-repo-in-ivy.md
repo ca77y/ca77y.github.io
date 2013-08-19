@@ -32,13 +32,18 @@ guy raging about Ivy configuration which would be as follows:
 {% endhighlight %}
 
 First of all this won't work, today that is. It will not parse pom.xml correctly and you will end up having 'almost'
-empty ivy.xml. You can fix it by changing the pattern used in artifact tag to the same one but ending with .pom but
+empty ivy.xml. You can fix it by changing the pattern used in artifact tag to the same one but ending with .pom and
 leaving ivy pattern as is.
 
 Obviously this doesn't help and the story is long already. The solution is simple like that:
 
 {% highlight xml %}
-<ibiblio name="local-maven" root="${user.home}/.m2/" m2compatible="true"/>
+<!-- for getting stuff -->
+<ibiblio name="local-m2" m2compatible="true" root="file://${user.home}/.m2/repository/" changingPattern=".*SNAPSHOT">
+<!-- for putting stuff -->
+<filesystem name="local-m2-publish" m2compatible="true">
+      <artifact pattern="${user.home}/.m2/repository/[organisation]/[module]/[revision]/[artifact]-[revision](-[classifier]).[ext]"/>
+</filesystem>
 {% endhighlight %}
 
-Add this to the chain and live a happy life.
+Add this to the resolvers/chain and live a happy life.
