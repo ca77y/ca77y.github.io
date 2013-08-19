@@ -1,5 +1,6 @@
 url: "http://ca77y.github.io"
 title: Radical Coding
+author: ca77y
 pygments: true
 markdown: kramdown
 permalink: pretty

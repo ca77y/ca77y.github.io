@@ -35,6 +35,15 @@ header .contacts li {
     min-height:100%;
 }
 
+.post .title {
+    padding: 0 0 0 15px;
+    margin: 0 0 20px;
+}
+
+.post .title small:before {
+    content: '\2014 \00A0';
+}
+
 .post {
     font-family: "Leto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

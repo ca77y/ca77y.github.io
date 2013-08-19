@@ -3,7 +3,10 @@ layout: default
 comments: true
 ---
 <div class="post">
-    <h2>{{ page.title }}</h2>
+    <div class="title">
+        <h2>{{ page.title }}</h2>
+        <small>by <a href="/">{{ site.author }}</a> on {{ page.date | date_to_string }}</small>
+    </div>
     {{content}}
 </div>
 
