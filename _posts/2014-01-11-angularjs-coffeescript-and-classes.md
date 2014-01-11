@@ -40,7 +40,8 @@ class AppCtrl extends AngularCtrl
     @_appService.ping 'KA'
 {% endhighlight %}
 
-I don't particularly like this part but it saves a lot of typing and makes the actual controller more readable as long as you remember which properties are going to be copied. The really bad part is => everywhere. Since the methods will be copied on the scope it is necessary, I do'nt know a better way :(
+I don't particularly like this part but it saves a lot of typing and makes the actual controller more readable as long as you remember which properties are going to be copied. The really bad part is => everywhere. Since the methods will be copied on the scope it is necessary, I don't know a better way :(
+
 Ideally I would like to have the scope separate from the controller. Maybe an inner class or something. Since my controllers tend to be < 100 lines of code I don't mind for now.
 
 ### Directive
