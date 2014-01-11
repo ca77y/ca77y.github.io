@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Angular bootstrap on document ready
+tags: [angularjs]
 ---
 
 Going through the angular docs for bootstrap of an app you can find out this is the way to do it:

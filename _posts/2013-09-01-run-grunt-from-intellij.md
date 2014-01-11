@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Run grunt from Intellij
+tags: [grunt, intellij]
 ---
 
 I don't like to have 7 console windows/tabs open. Each time i can get something running inside an IDE i do that. Until

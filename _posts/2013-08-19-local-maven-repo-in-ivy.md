@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Local maven repo in Ivy
+tags: [maven, ivy]
 ---
 
 For my limited experience I simply don't like Ant+Ivy. Sure, it's flexible and all but it's just too much xml for my

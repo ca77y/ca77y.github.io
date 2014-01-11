@@ -1,6 +1,7 @@
 ---
 layout: post
 title: AngularJS loves Coffee
+tags: [angularjs, coffeescript]
 ---
 
 ... or not. At least it seems CoffeeScript is not very popular with the AngularJS crowd. Which is a shame really because I feel alone in my CoffeeScript love.
