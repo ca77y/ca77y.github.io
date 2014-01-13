@@ -64,5 +64,3 @@ angular.module('app', [])
 {% endhighlight %}
 
 Putting our parts together. One really cool advantage for Intellij users, like me, is you can search for classes with instead of files. This helps to keep file names related to the package/component and class names to the actual code.
-
-So there... time to rewrite the entire universe in CoffeeScript... NOW!!!
